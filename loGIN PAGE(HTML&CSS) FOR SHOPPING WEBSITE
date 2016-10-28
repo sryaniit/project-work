@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<style type="text/css">
+body{
+background-image:url("img6.gif");
+background-repeat:no-repeat;
+background-size:cover;
+}
+m:hover
+{
+color:red;
+}
+h1{
+font-family:algerian;
+font-size:18pt;
+color:white;
+}
+div{
+background-image:url("img6.gif");
+background-repeat:no-repeat;
+background-size:cover;	
+width:400px;
+border:5px dark yellow;
+border-style:ridge;
+padding:25px;
+margin:50px;
+font-size:14pt;
+font-family:algerian;
+color:white;
+}
+h2{
+font-family:algerian;
+font-size:18pt;
+font-weight:bolder;
+color:white;
+clear:left;
+}
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color:white;
+    padding: 18px 30px;
+    text-decoration: none;
+    margin: 6px 5px;
+    cursor: pointer;
+}
+h3{
+font-family:algerian;
+color:lightgreen;
+text-decoration:underline;
+}</style></head>
+<body>
+<center><div align="center">
+<h1><u>LOGIN</u></h1><br>
+<form method="post" action="login.html">
+<h2>User name<br><input type="text"name="username"value=""placeholder="username or email"maxsize="25"><br><br>
+Password<br><input type="password"name="password"value=""placehoder="*****"maxsize="15"><br>
+<h3><input type="checkbox">Keep me logged in</h3>
+<br><br></h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit"value="login"><br><br>
+<b><h2>Need an account?&nbsp</b><a href="signup.html"><m>click to register</m></h1></a>
+</form></center>
+</body>
+</html>

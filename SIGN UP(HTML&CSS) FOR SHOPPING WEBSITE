@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Sign up</title>
+<style type="text/css">
+input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color:white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=reset]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body
+{
+background-image:url("img6.gif");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+h2{
+}
+div {
+background-image:url("img6.gif");
+background-repeat:no-repeat;
+background-size:cover;
+font-family:algerian;
+font-size:14pt;
+color:red;
+font-weight:bolder;
+background-color:yellow;
+width:400px;
+border-style:outset;
+border-radius:8px;
+padding: 25px;
+margin: 400px;
+position:static;
+}
+h3{
+background-color:lightblack;
+width:375px;
+border-style:inset;
+border-radius:4px;
+padding: 10px;
+margin: 1px;
+position:static;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+background-color:lightblue;
+color:black;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+h1{
+font-family:courier;
+font-size:20pt;
+color:red;
+font-weight:bolder;
+border-radius:2px;
+}
+</style>
+</head>
+<body><div><center>
+<h1 align="center"><u><i>SiGn Up</i></u></h1></center><form>
+ <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname"placeholder="first name">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname"placeholder="last name"><br><br>
+Date of birth&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date of birth" name="Date of birth" 
+
+size="20"placeholder="dd/mm/yyyyy"><br><br>
+Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" 
+
+name="Gender" value="Male"checked>Male
+&nbsp<input type="radio" name="Gender" value="Female">Female<br><br>
+<h3>Username&nbsp&nbsp&nbsp<input type="text"name="username"value=""placeholder="username"><br><br>
+E-mail id&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="E-mail id"placeholder="e-mail 
+
+id"><br><br>
+Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input 
+
+type="password" name="Password"value=""maxsize="15" ><br><br>
+Re-type Password&nbsp&nbsp&nbsp&nbsp<input type="password" name="Re-type 
+Password"maxsize="15"><br><br><br></left>&nbsp&nbsp&nbsp</h3><center><br><br>
+<input type="submit" value="Signup">
+<input type="reset" value="Reset"></center>
+<br><br>
+</form>
+</div>
+</body>
+</html>
+
+ 
