@@ -9,7 +9,6 @@
 <body>
 Welcome...<b>${param.Username}</b>
 <br/>
-<marquee>You have Successfully logged in !!!!!!!!!!!</marquee>marquee>
-
+<marquee>You have Successfully logged in !!!!!!!!!!!</marquee>
 </body>
 </html>

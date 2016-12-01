@@ -27,9 +27,9 @@ else
 {
 %>
 <%/*implementing input form */ %>
-<form method="get" action="start.jsp">
-<strong>Username</strong><input type="text" maxlength="50" placeholder="Username"> <br/>
-<strong>Password</strong><input type="password" maxlength="25" placeholder="password"><br/>
+<form method="get" action="index.jsp">
+<strong>Username</strong><input type="text" maxlength="50" > <br/>
+<strong>Password</strong><input type="password" maxlength="25" ><br/>
 <input type="submit" value="login">
 </form>
 <%

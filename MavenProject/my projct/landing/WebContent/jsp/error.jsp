@@ -9,7 +9,7 @@
 <body>
 Sorry,
 Please enter the correct <u>username and password</u>!!!!!!!!!
-Click here to goto home<a href="start.jsp">
+Click here to goto home<a href="index.jsp">
 Home
  </a>
 
