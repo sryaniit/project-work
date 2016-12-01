@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+<context:annotation-config/>
+<bean id="student1" class="co.surya.annotation.example.StudentwithAnnotations" />
+<bean  id="student2" class="co.surya.annotation.example.StudentwithAnnotations">
+<property name="name" value="prakash"></property>
+</bean>
+<bean id="hostel1" class="co.surya.annotation.example.Hostel">
+<property name="hostelname" value="big hostel"></property>
+<property name="city" value="delhi"></property>
+</bean>
+<bean id="hostel2" class="co.surya.annotation.example.Hostel">
+<property name="hostelname" value="small hostel" ></property>
+<property name="city" value="goa"></property>
+</bean>
+<bean id="student" class="co.surya.annotation.example.Student">
+<property name="name" value="suriya"></property>
+<property name="id" value="1de3"></property>
+</bean>
+</beans>
+

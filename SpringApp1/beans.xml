@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="HelloWorld" class="co.surya.sample.HelloWorld"></bean>
+<bean id="Person" class="co.surya.sample.Person">	<property name="firstname" value="surya"></property>
+	<property name="lastname" value="prakash"></property>
+	</bean>
+		<bean id="car" class="co.surya.module1.Car">
+	<property name="name" value="Renault"></property>
+	<property name="paypercost" value="23000"></property>
+	</bean>
+	<bean id="user" class="co.surya.module1.User">
+<property name="car" ref="car"></property>
+	</bean>
+	<bean id="student" class="co.surya.module1.Student" autowire="byName">
+	<property name="name" value="surya"></property>
+	<property name="id" value="1234"></property>
+	</bean>
+	<bean id="hostel" class="co.surya.module1.Hostel">
+    <property name="hostelname" value="boys hostel"></property>
+    <property name="city" value="chennai"></property>
+    </bean>
+</beans>

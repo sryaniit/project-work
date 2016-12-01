@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="Hostel" class="co.surya.module2.Hostel">
+<property name="hostelname" value="Chennai boys hostel"></property>
+<property name="city" value="Chennai"></property>
+</bean>
+<bean id="Student" class="co.surya.module2.Student" autowire="constructor">
+<constructor-arg name="name" value="srya"></constructor-arg>
+<constructor-arg name="id" value="1234"></constructor-arg>
+</bean>
+<bean id="Book" class="co.surya.module2.Book">
+<property name="name" value="davinci"></property>
+<property name="author" value="danbrown"></property>
+<property name="noofpages" value="456"></property>
+<property name="cost" value="4000"></property>
+</bean>
+<bean id="ebook" class="co.surya.module2.Ebook" parent="Book">
+<property name="sizeinmb" value="25"></property>
+</bean>
+</beans>
