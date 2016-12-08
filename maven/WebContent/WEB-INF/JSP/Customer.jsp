@@ -8,7 +8,8 @@
 <title>Customer Data Handling</title>
 </head>
 <body>
-<h2>Customer Information</h2>
+<h2>Customer Information</h2>to Map Values With the Servlet
+<!-- Implementing Spring Forms  -->
 <form:form method="post" action="/dispatch/addCustomer">
 <table>
 <tr>
