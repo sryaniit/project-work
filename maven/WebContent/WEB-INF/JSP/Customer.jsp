@@ -9,7 +9,7 @@
 </head>
 <body>
 <h2>Customer Information</h2>to Map Values With the Servlet
-<!-- Implementing Spring Forms  -->
+<!-- Implementing Spring Forms to Map Values With the Servlet-->
 <form:form method="post" action="/dispatch/addCustomer">
 <table>
 <tr>
