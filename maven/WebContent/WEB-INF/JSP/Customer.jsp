@@ -10,6 +10,7 @@
 <body>
 <h2>Customer Information</h2>to Map Values With the Servlet
 <!-- Implementing Spring Forms to Map Values With the Servlet-->
+<!-- Add customer details to the given method -->
 <form:form method="post" action="/dispatch/addCustomer">
 <table>
 <tr>
@@ -27,6 +28,7 @@
 </tr>
 <tr>
 <td colspan="1">
+<!-- Submit values -->
 <input type="submit" value="submit">
 </table>
 
