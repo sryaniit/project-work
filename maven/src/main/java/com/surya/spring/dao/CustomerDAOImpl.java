@@ -1,4 +1,4 @@
-package com.surya.spring.dao;
+/*package com.surya.spring.dao;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -49,6 +49,7 @@ public class CustomerDAOimpl implements CustomerDAO{
 		Session session=this.sessionfactory.getCurrentSession();
 		Customer cust=(Customer)session.load(Customer.class, id);
 		return cust;
+	
 		
 	}
 
@@ -67,4 +68,4 @@ public class CustomerDAOimpl implements CustomerDAO{
 	
 
 }
-}
+}*/

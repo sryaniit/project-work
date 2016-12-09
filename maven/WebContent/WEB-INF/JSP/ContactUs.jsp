@@ -7,13 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-
-<a href="contact">Contact Us</a>
-<!-- <form action="post">
-
-Name: <input type="text" value="name">
- -->
-</form>
+Contact Us Here!
 </body>
 </html>

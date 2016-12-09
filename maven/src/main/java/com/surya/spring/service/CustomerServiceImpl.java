@@ -1,12 +1,13 @@
-package com.surya.spring.service;
+/*package com.surya.spring.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.surya.spring.dao.CustomerDAO;
 import com.surya.spring.model.Customer;
-
+@Service
 public class CustomerServiceImpl implements CustomerService{
 	
 	private CustomerDAO customerDAO;
@@ -45,3 +46,4 @@ public class CustomerServiceImpl implements CustomerService{
 	
 	
 }
+*/
